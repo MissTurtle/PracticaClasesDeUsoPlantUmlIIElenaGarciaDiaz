@@ -1,0 +1,13 @@
+@startuml
+:Socio:
+:Bibliotecario:
+(Reservar Libro)
+(Prestar Libro)
+(Devolver Libro)
+(Actualizar Catalogo)
+:Socio: -- (Reservar Libro)
+:Socio: -- (Prestar Libro)
+:Socio: -- (Devolver Libro)
+:Bibliotecario: -- (Prestar Libro)
+:Bibliotecario: -- (Actualizar Catalogo)
+@enduml
