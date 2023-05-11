@@ -1,0 +1,7 @@
+@startuml
+:Bibliotecario:
+(Baja Socio)
+(Buscar Socio)
+:Bibliotecario: --> (Baja Socio)
+(Baja Socio) .> (Buscar Socio) : include
+@enduml
