@@ -1,0 +1,7 @@
+@startuml
+:Agente:
+(Evaluar solicitud de credito)
+(Solicitar informacion adicional al cliente)
+:Agente: --> (Evaluar solicitud de credito)
+(Solicitar informacion adicional al cliente) .> (Evaluar solicitud de credito) : extends
+@enduml
